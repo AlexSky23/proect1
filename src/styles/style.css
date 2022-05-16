@@ -1,0 +1,144 @@
+#app-login-btn {
+  width: 160px;
+}
+
+#app-logout-btn {
+  display: none;
+}
+
+#laptop {
+  position: relative;
+width: 1235px;
+height: 700px;
+background: #0079BF;
+}
+
+#header {
+  position: absolute;
+width: 1235px;
+height: 55px;
+left: 0px;
+top: 0px;
+background: #0067A3;
+}
+
+#awe {
+  position: absolute;
+width: 331px;
+height: 26px;
+left: 20px;
+top: 11px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+color: #FFFFFF;
+}
+
+#user-menu {
+  position: absolute;
+width: 64px;
+height: 40px;
+left: 1155px;
+top: 7px;
+}
+
+#vector {
+  position: absolute;
+left: 0%;
+right: 0%;
+top: -1.56%;
+bottom: 1.56%;
+}
+
+#vector1 {
+  position: absolute;
+left: 46px;
+right: 25%;
+top: 34.21%;
+bottom: 34.9%;
+}
+
+#u-a {
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 0px;
+}
+
+#u-v {
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+#footer {
+  position: absolute;
+  width: 1235px;
+  height: 55px;
+  left: 0px;
+  top: 645px;
+  background: #0067A3;
+}
+
+#at {
+  position: absolute;
+width: 138px;
+height: 21px;
+left: 21px;
+top: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+#ft {
+  position: absolute;
+width: 159px;
+height: 21px;
+left: 195px;
+top: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+#kb {
+  position: absolute;
+width: 279px;
+height: 21px;
+left: 937px;
+top: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+#frame1 {
+  position: relative;
+width: 338px;
+height: 1226px;
+background: #0079BF;
+}
+
+#user-menu_f1 {
+  position: absolute;
+width: 85px;
+height: 50px;
+right: 10px ;
+top: 10px;
+background: #0067A3;
+}
