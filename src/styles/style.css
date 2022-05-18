@@ -44,16 +44,8 @@ left: 1155px;
 top: 7px;
 }
 
-#vector {
-  position: absolute;
-left: 0%;
-right: 0%;
-top: -1.56%;
-bottom: 1.56%;
-}
-
 #vector1 {
-  position: absolute;
+position: absolute;
 left: 46px;
 right: 25%;
 top: 34.21%;
@@ -77,12 +69,12 @@ bottom: 0%;
 }
 
 #footer {
-  position: absolute;
-  width: 1235px;
-  height: 55px;
-  left: 0px;
-  top: 645px;
-  background: #0067A3;
+position: absolute;
+width: 1235px;
+height: 55px;
+left: 0px;
+top: 645px;
+background: #0067A3;
 }
 
 #at {
@@ -127,18 +119,51 @@ line-height: 21px;
 color: #FFFFFF;
 }
 
-#frame1 {
-  position: relative;
-width: 338px;
-height: 1226px;
-background: #0079BF;
-}
-
 #user-menu_f1 {
   position: absolute;
 width: 85px;
 height: 50px;
 right: 10px ;
-top: 10px;
-background: #0067A3;
+top: 0px;
+background: none;
+border: none;
+}
+
+#Rectangle {
+  position: absolute;
+width: 11px;
+height: 11px;
+right: 109%;
+top: 110%;
+background: #ffffff;
+transform: rotate(45deg);
+}
+
+#vector2 {
+  position: absolute;
+  left: 46px;
+  right: 25%;
+  top: 25.21%;
+  bottom: 34.9%;
+  }
+
+  #text_m-u {
+margin-left: 10%;
+margin-top: 5%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+}
+
+#u-m_blok-txt {
+position: absolute;
+width: 134px;
+height: 60px;
+right: 50%;
+top: 125%;
+background: #FFFFFF;
+border-radius: 5px;
 }
