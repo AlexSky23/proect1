@@ -7,6 +7,7 @@ import { generateTestUser } from "./utils";
 import { State } from "./state";
 import { authUser } from "./services/auth";
 import { btn_LogOff } from "./services/btn_logOff";
+import { DnD } from "./models/DnD";
 
 //добавление доски
 import { user_menu_f1 } from "./models/user_menu_f1";
@@ -42,4 +43,7 @@ loginForm.addEventListener("submit", function (e) {
 
   const btn_user_menu_f1 = user_menu_f1();
   btn_user_menu_f1;
+
+  const DnD_1 = DnD();
+  DnD_1;
 });

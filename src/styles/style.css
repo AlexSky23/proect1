@@ -168,83 +168,63 @@ top: 125%;
 background: #FFFFFF;
 border-radius: 5px;
 }
-
-#Rectangle_21 {
+div[id^="Rectangle_2"] {
   position: absolute;
   width: 282px;
   min-height: 100px;
-  max-height: 560px;
-  left: 26%;
-  top: 10%;
+  max-height: 580px;
   background: #EBECF0;
   border-radius: 10px;
+}
+
+#Rectangle_21 {
+  left: 26%;
+  top: 10%;
   }
 
 #Rectangle_22 {
-  position: absolute;
-  width: 282px;
-  min-height: 100px;
-  max-height: 560px;
   left: 51%;
   top: 10%;
-  background: #EBECF0;
-  border-radius: 10px;
   }
 
 #Rectangle_23 {
-  position: absolute;
-  width: 282px;
-  min-height: 100px;
-  max-height: 560px;
   left: 76%;
   top: 10%;
-  background: #EBECF0;
-  border-radius: 10px;
   }
 
-  #Rectangle_2 {
-  position: absolute;
-  width: 282px;
-  min-height: 100px;
-  height: fit-content;
-  max-height: 560px;  
+#Rectangle_2 { 
   left: 1%;
   top: 10%;
-  background: #EBECF0;
-  border-radius: 10px;
-  }
+}
 
 #heading_in_block {
-position: absolute;
-float: inline-start;
-left: 12px;
-right: 38px;
-top: 12px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-color: #000000;
+  margin: 0;
+  float: inline-start;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-align: center;
 }
 
 div[id^="block_text"] {
-  position: absolute;
   float: inline-start;
-  overflow: auto;
+  overflow-y: auto;
   width: 278px;
   height: fit-content;
-  max-height: 480px;
-  top: 44px;
+  max-height: 550px;
+  padding-bottom: 20px;
 }
 
 button[id^="add_c"] {
   position: absolute;
   float: inline-end;
-  bottom: 8px;
+  bottom: 3px;
   left: 12px;
-  width: 215px;
-  height: 21px;
+  width: 250px;
+  height: 30px;
   border: none;
   font-family: 'Roboto';
   font-style: normal;
@@ -265,6 +245,8 @@ button[id^="add_c"] {
   ::-webkit-scrollbar-track {
   background-color:#FFFFFF;
   box-shadow:0px 0px 3px #FFFFFF;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   }
   ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 5px;
